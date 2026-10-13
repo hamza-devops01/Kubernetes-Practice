@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+
+metadata:
+  name: online-shop-app
+
+spec:
+  containers:
+  - name: online-shop-app
+    image: hamzadevops01/online-shop:latest
+    ports:
+    - containerPort: 5173
